@@ -11,3 +11,12 @@ nav ul li {
   padding: 10px;
  
 }
+
+input{
+  margin: 1rem;
+}
+form{
+  width: 350px;
+  border-style: inset;
+  margin: 1rem auto;
+}
