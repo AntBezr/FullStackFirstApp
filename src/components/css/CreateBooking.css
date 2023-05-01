@@ -1,0 +1,24 @@
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input,select{
+  margin: 1rem;
+}
+button{
+  margin: 1rem;
+}
+form{
+  width: 350px;
+  border-style: inset;
+  margin: 1rem auto;
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+label{
+
+}

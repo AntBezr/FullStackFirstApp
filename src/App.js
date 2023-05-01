@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
-import ListUser from './components/ListUser';
-import CreateUser from './components/CreateUser';
+import ListBooking from './components/ListBooking';
+import CreateBooking from './components/CreateBooking';
+
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
       </ul>
      </nav>
      <Routes>
-      <Route index element={<ListUser/>}></Route>
-      <Route index  path="user/create" element={<CreateUser/>}></Route>
+      <Route index element={<ListBooking/>}></Route>
+      <Route index  path="user/create" element={<CreateBooking/>}></Route>
      </Routes>
      </BrowserRouter>
 

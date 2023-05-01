@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;800&display=swap');
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
 .App{
   text-align: center;
+  background: url('./images/bg2.jpeg') no-repeat center center/cover ;
+  height: 100vh;
+  
 }
 nav ul{
 list-style: none;
@@ -12,11 +22,3 @@ nav ul li {
  
 }
 
-input{
-  margin: 1rem;
-}
-form{
-  width: 350px;
-  border-style: inset;
-  margin: 1rem auto;
-}
