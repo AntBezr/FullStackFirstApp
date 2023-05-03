@@ -16,6 +16,7 @@ function ListBooking() {
   }
 
   return (
+    <div className='box'>
     <div className='table'>
       <h1>Booking List</h1>
       <table>
@@ -31,7 +32,6 @@ function ListBooking() {
         <tbody>
           {booking.map((booking, key) => (
             <tr key={key}>
-             
               <td>{booking.name}</td>
               <td>{booking.appartment}</td>
               <td>{booking.date}</td>
@@ -40,6 +40,7 @@ function ListBooking() {
           ))}
         </tbody>
       </table>
+    </div>
     </div>
   );
 }

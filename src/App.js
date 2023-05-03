@@ -7,15 +7,15 @@ import CreateBooking from './components/CreateBooking';
 function App() {
   return (
     <div className="App">
-     <h5> full stack app</h5>
+     <h1> Laundry booking app</h1>
      <BrowserRouter>
      <nav>
       <ul>
         <li>
-          <Link to="/">List Users</Link>
+          <h2><Link to="/">List Users</Link></h2>
         </li>
         <li>
-          <Link to="user/create">Create Users</Link>
+          <h2><Link to="user/create">Create Users</Link></h2>
         </li>
       </ul>
      </nav>

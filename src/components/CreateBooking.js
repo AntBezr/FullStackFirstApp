@@ -23,8 +23,8 @@ const handleChange = (event) =>{
   };
 
   return (
-    <div>
-      <h2>Create users</h2>
+    <div className='newBookingBox'>
+      <h2>Create new booking</h2>
       <form onSubmit={handleSubmit}>
         <label >Name:</label>
         <input type="text" name="name" onChange={handleChange}/>
