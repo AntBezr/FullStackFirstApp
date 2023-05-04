@@ -12,10 +12,10 @@ function App() {
      <nav>
       <ul>
         <li>
-          <h2><Link to="/">List Users</Link></h2>
+          <h2><Link to="/">Booking List</Link></h2>
         </li>
         <li>
-          <h2><Link to="user/create">Create Users</Link></h2>
+          <h2><Link to="user/create">Create new Booking</Link></h2>
         </li>
       </ul>
      </nav>
